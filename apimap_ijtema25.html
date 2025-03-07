@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+	<head>
+    <title>Ijtema Markers</title>
+	</head>
+	
+<style> 
+#map {
+	height : 100%; }
+html,body {
+		height: 100%; 
+		margin: 0;
+		padding: 0: }
+
+		h1,h2,p {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	
+		table, th, td, tr {
+		border: 1px solid black;
+		text-align: center;
+		padding-left: 2px;
+		margin-left: auto;
+		margin-right: auto;
+		 height: 25px;
+		 font-weight: bold; 
+		}
+			
+	
+</style>
+
+<style>
+.scroll p {
+	transform: translateX(100%);
+	animation: scroll 25s linear infinite;
+	}
+	
+	@keyframes scroll{ 
+	0% {transform: translateX(100%);}
+	100% {transform: translateX(-100%);}
+	}
+</style>
+
+<body> 
+	<h1 style='color:blue; background-color:yellow;'> US World IJTEMA 2025</h1>
+	<h2>Chicago Area  - Pre-Ijtema Hosting Masajid</h2><hr>
+	<div class='scroll'>
+		<p class='scroll' style='color:blue; font-size:30px;'> Please contact the cordinator or responsible of the masjid before directing a jamat!! </p>
+	</div>
+	<div id="map"> </div>
+	
+	<h2> Masajid to host Jamats arriving before Ijtema - until Friday Morning Jun 27, 2025 </h2>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default">
+	</script>      
+	
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer>
+	 </script>
+	 
+	 <script>
+		function initMap(){
+		const myLatLng = { lat: 41.994173, lng: -87.667490 };
+		
+		const myLatLng1 = { lat: 41.997135, lng:-87.692917 };
+	
+		const myLatLng2 = { lat: 42.038992, lng: -87.692395 };
+		
+		const myLatLng3 = { lat: 42.030042, lng: -87.730149 };
+		
+		const myLatLng4 = { lat: 42.0454586, lng: -87.860961 };
+		
+		const myLatLng5 = { lat: 42.0860466, lng: -88.0335422 };
+		
+		const myLatLng6 = { lat: 41.8510798, lng:-88.033425 };
+		
+		const myLatLng7 = { lat: 41.8744295, lng: -88.0244662 };
+	
+		const myLatLng8 = { lat: 41.9977784, lng: -88.1185722 };
+		
+		const myLatLng9 = { lat: 42.0189153, lng: -88.24276 };
+		
+		const myLatLng10 = { lat: 41.7515142, lng: -88.3296709 };
+		
+		const myLatLng11 = { lat: 41.903063, lng: -88.0452796 };
+		
+		const myLatLng12 = { lat: 41.903063, lng: -88.0452796 };
+		
+		const myLatLng13 = { lat: 41.903063, lng: -88.0452796 };
+		
+		const myLatLng14 = { lat: 41.6974436, lng: -88.0450295 };
+		
+		const myLatLng15 = { lat: 41.7139735, lng: -87.7870472 };
+		
+		const myLatLng16 = { lat: 41.6134494, lng: -87.6449288 };
+		
+		const myLatLng17 = { lat: 41.9434215, lng: -87.6551329 };
+		
+		const myLatLng18 = { lat: 42.0101538, lng: -87.6898552 };
+		
+		const myLatLng19 = { lat: 41.9942396, lng: -87.6993025 };
+		
+		const myLatLng20 = { lat: 41.9789691, lng: -87.8606857 };
+		
+		const map = new google.maps.Map(document.getElementById("map"),
+		{ zoom:10, center: myLatLng, });
+		
+		new google.maps.Marker({
+		position: myLatLng,
+		map,
+		title: "MARKAZ",
+		});
+		
+		new google.maps.Marker({
+		position: myLatLng1,
+		map,
+		title: "Jamia Masjid",
+		});
+		new google.maps.Marker({
+		position: myLatLng2,
+		map,
+		title: "Baitul Huda",
+		});
+		
+		new google.maps.Marker({
+		position: myLatLng3,
+		map,
+		title: "Suffah",
+		});
+		new google.maps.Marker({
+		position: myLatLng4,
+		map,
+		title: "DesPlaines - ICCD",
+		});
+		
+		new google.maps.Marker({
+		position: myLatLng5,
+		map,
+		title: "ISNS - Rolling Meadows",
+		});
+		new google.maps.Marker({
+		position: myLatLng6,
+		map,
+		title: "Masjid Usman",
+		});
+		
+		new google.maps.Marker({
+		position: myLatLng7,
+		map,
+		title: "CPSA",
+		});
+	new google.maps.Marker({
+		position: myLatLng8,
+		map,
+		title: "Masjid Huda",
+		});
+		
+		new google.maps.Marker({
+		position: myLatLng9,
+		map,
+		title: "IIE",
+		});
+	new google.maps.Marker({
+		position: myLatLng10,
+		map,
+		title: "Masjid Hidayat",
+		});
+		new google.maps.Marker({
+		position: myLatLng11,
+		map,
+		title: "AbuBakr-Aurora",
+		});
+		new google.maps.Marker({
+		position: myLatLng12,
+		map,
+		title: "Naper-Center",
+		});
+		new google.maps.Marker({
+		position: myLatLng13,
+		map,
+		title: "Darus Salam",
+		});
+		new google.maps.Marker({
+		position: myLatLng14,
+		map,
+		title: "Masjid Islam - BB",
+		});
+	new google.maps.Marker({
+		position: myLatLng15,
+		map,
+		title: "Worth Mosque",
+		});
+	new google.maps.Marker({
+		position: myLatLng16,
+		map,
+		title: "Harvey Masjid",
+		});
+	
+	new google.maps.Marker({
+		position: myLatLng17,
+		map,
+		title: "AbuBakr-Rosque",
+		});
+	new google.maps.Marker({
+		position: myLatLng18,
+		map,
+		title: "Rehmate Alam-Western",
+		});
+	new google.maps.Marker({
+		position: myLatLng19,
+		map,
+		title: "Rehmate Alam California",
+		});
+	new google.maps.Marker({
+		position: myLatLng20,
+		map,
+		title: "IJTEMA-Place",
+		});
+	}
+	window.initMap = initMap;
+	
+	</script>
+	
+	<h3 style='color:red; font-style:italic;'> Need to take permission from management and for letting jamats stay from Thursday Jun 19 - Friday Jun 27. Jamats will not disturb any masjid ongoing programs/schedule. </h3>
+	<table> 		
+		<thead> 
+			<tr> 
+					<th> S# </th>
+					<th> Masjid </th>
+					<th> Address </th>
+					<th> Responsible Br </th>
+					<th> Contact </th>
+					<th> Management Permision Y/N </th>
+					<th> Capacity of BRS that can stay </th>
+					<th> Current "LIVE"</th>
+					
+			</tr>
+		</thead>
+			<tbody>
+				<tr>
+					<td> 0.    					</td>
+					<td> Markaz - Masjid-e-Noor	</td>
+					<td> 6151 N Greenview Ave, Chicago, IL 60660  </td>
+					<td> Br.Abid			</td>
+					<td><a href="773-791-4786"> 773-791-4786	</a></td>
+					<td> Y 					</td>
+					<td> FULL					</td>
+					<td>  					</td>
+				</tr>
+				<tr>
+					<td> 1.    				</td>
+					<td> Jamia Masjid 		</td>
+					<td> 6340 N Campbell Ave, Chicago, IL 60659   </td>
+					<td> Br.Anees			</td>
+					<td> 773-997-8363		</td>
+					<td> Y 					</td>
+					<td> 600			</td>
+					<td>  				</td>
+				</tr>
+				<tr>
+					<td> 2.    			</td>
+					<td> Baitul Huda   </td>
+					<td> 1136 Wesley Ave, Evanston, IL 60202   </td>
+					<td> Br.Chowdry		</td>
+					<td> 773-671-2809	</td>
+					<td> Y 				</td>
+					<td> 300			</td>
+					<td>  				</td>
+				</tr>
+				<tr>
+					<td> 3.    			</td>
+					<td> Suffah 		</td>
+					<td> 8201 Karlov Ave, Skokie, IL 60076   </td>
+					<td> Br.Ubaid			</td>
+					<td>   				</td>
+					<td> ?				</td>
+					<td> 150			</td>
+					<td> 				 </td>
+				</tr>
+					<tr>
+					<td> 4.    				</td>
+					<td> DesPlaines ICCD 		</td>
+					<td> 480 Potter Rd, Des Plaines, IL 60016   </td>
+					<td> Br.Nazeer			</td>
+					<td>  					</td>
+					<td> ? 					</td>
+					<td> 400				</td>
+					<td>  					</td>
+				</tr>
+				<tr>
+					<td> 5.    			</td>
+					<td> Rolling Meadows   </td>
+					<td> 1200 Hicks Rd, Rolling Meadows, IL 60008   </td>
+					<td> Qari 			</td>
+					<td>  				 </td>
+					<td> ?				</td>
+					<td> 400			</td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> 6.    			</td>
+					<td> Masjid Usman 		</td>
+					<td> 840 Oak Creek Dr, Lombard, IL 60148</td>
+					<td> Br.Farhan 			</td>
+					<td>   				</td>
+					<td> Y 				</td>
+					<td> 300			</td>
+					<td>  				</td>
+				</tr>
+				<tr>
+					<td> 7.    			</td>
+					<td> CPSA 			</td>		
+					<td>331 W Madison St, Lombard, IL 60148</td>
+					<td> Br.Ilyas		</td>
+					<td> 				 </td>
+					<td> Y 				</td>
+					<td> 400			</td>
+					<td>  				</td>
+				</tr>
+				<tr>
+					<td> 8.    			</td>
+					<td> Masjid Huda   </td>
+					<td> 1081 Irving Park Rd, Schaumburg, IL 60193   </td>
+					<td> Br. Amjad 		</td>
+					<td>  				 </td>
+					<td> ?				</td>
+					<td> 300			</td>
+					<td>  				</td>
+				</tr>
+				<tr>
+					<td> 9.    			</td>
+					<td> IIE 	</td>
+					<td>  1290 Bluff City Blvd, Elgin, IL 60120 </td>
+					<td> Br.Azam 		</td>
+					<td>   				</td>
+					<td> Y		 		</td>
+					<td> 300			</td>
+					<td> 				 </td>
+				</tr>
+					<tr>
+					<td> 10.    			</td>
+					<td> Masjid Hidayat	 </td>
+					<td> 543 S Lake St, Aurora, IL 60506   </td>
+					<td> Br.Amir / Br Asif </td>
+					<td>  					 </td>
+					<td>Y					</td>
+					<td> 200				</td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> 11.    			</td>
+					<td> Masjid AbuBakr    </td>
+					<td> ??   </td>
+					<td> Br.Asif 			</td>
+					<td>   					</td>
+					<td> Y 					</td>
+					<td> 100				</td>
+					<td>  					</td>
+				</tr>
+				<tr>
+					<td> 12.    			</td>
+					<td> Naper-Center   </td>
+					<td> ??  			 </td>
+					<td> Br. Tariq		</td>
+					<td>  				 </td>
+					<td> ?				</td>
+					<td> 50				</td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> 13.    			</td>
+					<td> Darus Salam 		</td>
+					<td> 21W525 North Ave, Lombard, IL 60148   </td>
+					<td> Br.Riyaz / Br.Hameeduddin 		</td>
+					<td>   					</td>
+					<td> Y 					</td>
+					<td> 300				</td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> 14.    			</td>
+					<td> Masjid Islam 		</td>
+					<td> 560 E North Frontage Rd, Bolingbrook, IL 60440  </td>
+					<td> Br.Ataur Rahman 	</td>
+					<td>   				</td>
+					<td> ?		 		</td>
+					<td> 150			</td>
+					<td> 				 </td>
+				</tr>
+					<tr>
+					<td> 15.    			</td>
+					<td> Worth	 </td>
+					<td> 11512 S Normandy Ave, Worth, IL 60482  </td>
+					<td> Br. Shafeequr Rahman 				</td>
+					<td>  					 </td>
+					<td> ?					</td>
+					<td> 50				</td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> 16.    			</td>
+					<td> Masjid Harvey	</td>
+				<td> 15200 Broadway Ave, Harvey, IL 60426   </td>
+					<td> Br.Iqbal 		</td>
+					<td>   				</td>
+					<td> Y		 		</td>
+					<td> 400			</td>
+					<td> 				 </td>
+				</tr>
+				<tr>
+					<td> 17.    			</td>
+					<td> Roscoe	 </td>
+					<td> 1017 W Roscoe St, Chicago, IL 60657   </td>
+					<td> Mufti Mohiuddin 				</td>
+					<td>  					 </td>
+					<td> Y					</td>
+					<td> 200				</td>
+					<td>  </td>
+				</tr>
+				<tr>
+					<td> 18.    			</td>
+					<td> Rehmate Alam-Western   </td>
+					<td> 7045 N Western Ave, Chicago, IL 60645  </td>
+					<td> Moulana Moiz		</td>
+					<td>  				 </td>
+					<td> ?				</td>
+					<td> 300			</td>
+					<td>  				</td>
+				</tr>
+				<tr>
+					<td> 19.    			</td>
+					<td> Rehmate Alam-California 	</td>
+					<td> 6201 N California Ave, Chicago, IL 60659 </td>
+					<td> Br. Shujah 		</td>
+					<td>   				</td>
+					<td> Y		 		</td>
+					<td> 100			</td>
+					<td> 				 </td>
+				</tr>
+				<tr>
+					<td>     			</td>
+					<td> Overall Cordinator 	</td>
+					<td> 			 </td>
+					<td> Br.? 		</td>
+					<td> ?  				</td>
+					<td> 		 		</td>
+					<td> <b>5000	</b></td>
+					<td> 				 </td>
+				</tr>
+</body>
+</html>
